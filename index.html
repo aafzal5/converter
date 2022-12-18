@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js" defer></script>
+    <title>Converter</title>
+</head>
+<body>
+    <h1>Converter</h1>
+    <div class="container">
+    <div class="fromDiv">
+        <label for="from">From</label>
+        <select class="from">
+            <option value="2">Binary</option>
+            <option value="6">Hexadecimal</option>
+            <option value="8">Octal</option>
+            <option value="10">Decimal</option>
+          </select>
+        <textarea name="inputArea" class="fromTextArea" cols="30" rows="10"></textarea>
+    </div>
+    <div class="buttons">
+        <button type="button" class="swap">Swap</button>
+        <button type="button" class="convert">Convert</button>
+    </div>
+    <div class="toDiv">
+        <label for="to">To</label>
+        <select class="to">
+            <option value="10">Decimal</option>
+            <option value="8">Octal</option>
+            <option value="6">Hexadecimal</option>
+            <option value="2">Binary</option>
+          </select>
+        <textarea name="inputArea" class="toTextArea" cols="30" rows="10"></textarea>
+    </div>
+</div>
+</body>
+</html>
